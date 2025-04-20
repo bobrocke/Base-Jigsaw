@@ -1,0 +1,32 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "mix",
+        "watch": "mix watch",
+        "prod": "mix --production"
+    },
+    "devDependencies": {
+        "alpinejs": "^3.14.1",
+        "autoprefixer": "^10.4.13",
+        "axios": "^0.21.1",
+        "browser-sync": "^2.27.4",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "fast-glob": "^3.2.12",
+        "fuse.js": "^6.4.6",
+        "highlight.js": "^11.7.0",
+        "laravel-mix": "^6.0.39",
+        "laravel-mix-jigsaw": "^2.0.0",
+        "postcss": "^8.4.21",
+        "postcss-import": "^14.0.2",
+        "tailwindcss": "^3.2.4"
+    },
+    "dependencies": {
+        "@babel/core": "^7.0.0-0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.15.6",
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@babel/plugin-transform-runtime": "^7.15.8",
+        "@babel/preset-env": "^7.15.8",
+        "webpack": "^5.60.0",
+        "webpack-cli": "^4.9.1"
+    }
+}
